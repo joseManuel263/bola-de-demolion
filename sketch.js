@@ -13,7 +13,8 @@ var bg = "sprites/bg1.png";
 //var score = 0;
 
 function preload() {
-    getBackgroundImg();
+    //getBackgroundImg();
+    backgroundImg = loadImage("sprites/bg1.png");
 }
 
 function setup(){
@@ -103,6 +104,7 @@ function keyPressed(){
     }
 }
 */
+/*
 async function getBackgroundImg(){
     var response = await fetch("http://worldtimeapi.org/api/timezone/America/Mexico_City");
     var responseJSON = await response.json();
@@ -120,3 +122,4 @@ async function getBackgroundImg(){
     backgroundImg = loadImage(bg);
     console.log(backgroundImg);
 }
+*/
